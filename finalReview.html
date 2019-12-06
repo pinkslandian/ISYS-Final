@@ -29,7 +29,8 @@
     
     <div class="bodyBoxContainer">
     <div class="bodyBox">
-    
+    <div class="mySlides fade">
+
     <div class="row">
      <h2>Orange is The New Black</h2>
      <img src="oj.jpg" alt="Orange is the new black picture" style="width:400px;height:300px;">
@@ -60,46 +61,56 @@
       </div>
   </div>
 
-     <h2>tv show name </h2>
-     <img src="profile.png" width="100px">
+     <h2>Stranger Things </h2>
+     <img src="things.jpg" style="width:400px;height:300px;">
   
   <div class="column">
-         <p>Category: 
-         info bout show </p>
+         <p>Category: Horror/Drama
+         First episode date: July 15, 2016 <br>
+         Created by	The Duffer Brothers <br>
+         97% liked this TV show </p>
   </div>
     <div class="textBoxA">
     
       <ul> 
-           <li> Name: Vallrie Marie </li>
-          <li> Age: 27</li>
+           <li> Name: Ann Mable </li>
+          <li> Age: 17</li>
           <li> Rating: 10/10</li>
           <p>
-         review
+         Stranger Things is amazing. It's full of humor and horror, which is somehow mixed together very well. 
          <p>
       </ul>
       </div>
   </div>
-   <h2>tv show name </h2>
-   <img src="profile.png" width="100px">
+   <h2>The Walking Dead </h2>
+   <img src="walking.jpg" style="width:400px;height:300px;">
   <div class="column">
         
-           <p>Category: 
-         info on show </p>
+           <p>Category: Action
+              First episode date: October 31, 2010<br>
+              Theme song: The Walking Dead theme song<br>
+              Spin-off: Fear the Walking Dead <br>
+</p>
   </div>
     <div class="textBoxA">
    
       <ul> 
            <li> Name: Joe Halfway</li>
           <li> Age: 20</li>
-          <li> Rating: 5/10</li>
+          <li> Rating: 9/10</li>
           <p>
-                 review
+                The Walking Dead is a phenomenal tv show and never fails to entertain. 
+                Take it from someone who watches a lot of tv. Game of thrones, empire,
+                 the list is endless... but in that endless catalog, the walking dead stood 
+                 out to be one of the best in my opinion.
          <p>
       </ul>
     </div>
+    </div>
 
+<div class="slideshow-container">
 <h2>What Happened To Monday </h2>
-     <img src="Mon.jpg" alt="What Happened To Monday"  style="width:400px;height:300px;">
+     <img src="mon.jpg" alt="What Happened To Monday"  style="width:400px;height:300px;">
   
   <div class="column">
        <p>Category: Action<br>
@@ -125,7 +136,7 @@
   </div>
 
      <h2> The Water Boy </h2>
-     <img src="water.png" width="100px">
+     <img src="water.jpg" width="100px">
   
   <div class="column">
          <p>Category: Comedy<br>
@@ -148,8 +159,8 @@
       </ul>
       </div>
   </div>
-   <h2>The Karate Kid;</h2>
-   <img src="kid.png" width="100px">
+   <h2>The Karate Kid</h2>
+   <img src="kid.jpg" width="100px">
   <div class="column">
         
            <p>Category: Children & Family
@@ -174,8 +185,45 @@
       
   
     </div>
-    
-         </div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+</div>
+         <script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
     </div>
       <div class="submissionBox">
     <article>

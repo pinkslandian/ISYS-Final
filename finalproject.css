@@ -15,6 +15,9 @@
     background-color:#FFCBDD;
     border:solid 1px black;
       box-shadow: 5px 10px #888888;
+      width:100%;
+      height:95%;
+      
 
 }
 
@@ -23,15 +26,7 @@
    
 }
 
-.artBodyy{
-    background-color:#FFCBDD;
-    
-}
 
-.collectionBodyy{
-    background-color:#FFCBDD;
-   
-}
 
 
 /* format of the social media buttons */
@@ -73,6 +68,8 @@
 .contactWrapper{
 
 padding-left:200px;
+    border:1px solid black;
+    width:400px;
  
 }
 
@@ -83,11 +80,10 @@ padding-left:200px;
     position:relative;
     top:-400px;
     padding-right:200px;
+   
 }
 
-.contactBox{
-    border:1px solid black;
-}
+
 
 
 /* edits photo on contact page */
@@ -226,21 +222,8 @@ img[src^="stocks.png"]{
 
 }
 
-.fancyBox{
-      padding: 10px;
-    text-shadow: 0 1px 0 black;
-    border-right: 30px solid transparent;
-    border-bottom: 30px solid #FB4B4E;
-    height:0;
-    display:inline-block;
-    color:#D10000;
-    line-height:50px;
-    float:left;
-    font-weight:bold;
-    top: -120px;
-    position:relative;
-}
 
+/* edits the boxes on the home page */
 .homePageP{
     color:#3E000C;
     position:relative;
@@ -250,15 +233,13 @@ img[src^="stocks.png"]{
     
 }
 
-.whybox{
-   overflow:hidden;
-}
 
 .homepaige{
     width:500px;
 }
 
 
+/* formatting for the tv shows page */
 
 .containerOne{
     position:relative;
@@ -266,42 +247,7 @@ img[src^="stocks.png"]{
     z-index:99;
 }
 
-/*
-.containerTwo{
-      position:relative;
-    width:50%;
-    float:left;
-   
-    overflow:hidden;
-}
 
-.showImageRight{
-    padding:0;
-      display:block;
-    height:auto;
-    width:300px;
-    float:right;
-    top:-90px;
-}
-
- .overlayTextRight{
-     position: absolute;
-  bottom: 0;
-  left: 100%;
-  right: 0;
-  background-color: #D10000;
-  overflow: hidden;
-  width: 0;
-  height: 100%;
-  transition: .5s ease;
-}
-
-.containerTwo:hover .overlayTextRight{
-    width:100%;
-    left:0;
-}
-
-*/
 
 .showImage{
     display:block;
@@ -345,6 +291,8 @@ img[src^="stocks.png"]{
     
 }
 
+
+
 .bodyBox{
     margin-left:300px;
    
@@ -355,12 +303,28 @@ img[src^="stocks.png"]{
      background-image: linear-gradient(to bottom right, #FFCBDD, #D10000);
 }
 
-footer{
+.footer{
     background-color:#D10000;
-    max-width:100%;
-    width:100%;
+     position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+
 
 }
+
+#ph{
+  text-align: center;
+  color: #D10000;  
+}
+
+#p{
+text-align: center;
+  color: #D10000;  
+}
+
 
 .ratingscale{
     border-collapse:collapse;
@@ -378,8 +342,9 @@ img {vertical-align: middle;}
 
     width:400px;
   position: relative;
-    top:-400px;
+    top:-500px;
   margin: auto;
+   padding-left:350px;
    
 }
 
@@ -508,6 +473,9 @@ section{
     padding:20px;
     
 }
+
+
+
 
 
 

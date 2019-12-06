@@ -1,4 +1,10 @@
 <!DOCTYPE html>
+<!-- 
+Paige Davis 
+December, 6th 2019
+Dr. K
+Assignment designed to present a website for critiquing a variety of things 
+-->
 <html>
 <head>
     <meta charset="utf-8">
@@ -23,23 +29,21 @@
          
     
     <img src="paige_logo.png" alt="Paige Rates Logo">
-    <div class="whybox">
+    
         
     <h5 class="fancybox"> How things are rated </h5>
-        <h4 class="fancybox"> Test </h4>
+       
         
-    </div>
+   
     <br>
     <div class="homepaige">
     <p class="homePageP">
-        When I critiqued the subjects on my webpage I judged by: <em> <strong> Clarity, Content,</strong></em> and <em> <strong> Creativity </strong> </em>.  Then I took qualities like Terrible, Pretty Good, and Excellent and assigned them numbers on a scale of 1 to 9. After judging by each quality, I added each number and assigned them to an overall score. blah blah ill fix the mechanics later im super tired plz bare w/ me
-    
+        When I critiqued the subjects on my webpage I judged by: <em> <strong> Clarity, Content,</strong></em> and <em> <strong> Creativity </strong> </em>.  Then I took qualities like Terrible, Pretty Good, and Excellent and assigned them numbers on a scale of 1 to 9. After judging by each quality, I added each number and assigned them to an overall score. 
     </p>
     </div>
-    
-       <button onclick="myFunction()"> Show Scale </button>
-    
  
+    
+  
    
    <div class="myDiv">
     
@@ -72,24 +76,39 @@
            
        
     </table>
+       <br>
+       <br>
+       <br>
+       
+         <h5> Additional Information </h5>
+       <br>
+    <div class ="homepaige">
+        <p class="homePageP">
+              When I critiqued the subjects on my webpage I judged by: <em> <strong> Clarity, Content,</strong></em> and <em> <strong> Creativity </strong> </em>.  Then I took qualities like Terrible, Pretty Good, and Excellent and assigned them numbers on a scale of 1 to 9. After judging by each quality, I added each number and assigned them to an overall score. 
+        </p>
+    </div>
+       
+       <!-- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow
+-->
      
         <div class="slideshow-container">
 
 <div class="mySlides fade">
  
-  <img src="photo.png" style="width:100%">
- 
-</div>
-
-<div class="mySlides fade">
-
-  <img src="profile.png" style="width:100%">
+  <img src="tvd.jpg" style="width:100%">
+  
  
 </div>
 
 <div class="mySlides fade">
 
   <img src="oitnb.jpeg" style="width:100%">
+ 
+</div>
+
+<div class="mySlides fade">
+
+  <img src="originals.jpeg" style="width:100%">
   
 </div>
 
@@ -98,12 +117,13 @@
 
 </div>
 <br>
-
+<div class="slideshow-container">
 <div style="text-align:center">
   <span class="dot" onclick="currentSlide(1)"></span> 
   <span class="dot" onclick="currentSlide(2)"></span> 
   <span class="dot" onclick="currentSlide(3)"></span> 
 </div>
+    </div>
     </div>
 
 <script>
@@ -137,13 +157,15 @@ function showSlides(n) {
     
     
     <footer>
-        <p> Paige Davis 
-        <em> Ferris State University </em>
+     <script> 
+var outro = ["Paige Davis", "Pheobe Hill", "Ferris State University", "ISYS 288", "Email"];
+document.getElementById("footer").innerHTML = outro;
+</script>
           
         <a href="mailto:davisp11@ferris.edu" target="_blank"> 
             <img src="email.png" width:20px;>
             </a>
-              </p>
+              
         </footer>
     
  

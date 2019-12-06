@@ -7,41 +7,97 @@ and open the template in the editor.
     Created on : Dec 3, 2019, 5:48:49 PM
     Author     : Mrs.Hill
 */
-body{
-   background-image: linear-gradient(pink, white);
+.movieBodyy{
+    background-color:#FFCBDD;
+   
+}
+img[src^="paige_logo.png"]{
+    width:300px;
+    z-index:1;
+    padding-left:460px;
+    position: relative;
+    top: -90px;
+}
+/* nav bar formation */
+.navBar{
+list-style-type:none;
+    margin:0;
+    padding-left:5%;
+    padding-top:1%;
+    padding-bottom:20px;
+    overflow:hidden;
+    font-size:20px;
+    line-height:30px;
     
 }
 
-#titleone{
-     text-shadow:2px 2px pink;
-    text-decoration:underline;
-    text-decoration-style:double;
+.navRight{
+    position:relative;
+    top:-10px;
+   margin-left:400px;
+   float:right;
+    padding-left:170px;
+}
+
+.inline{
+    float:left;
+}
+
+.inline a{
+    display:block;
+    text-align:center;
+    padding: 14px 16px;
+    text-decoration:none;
+    color:#3E000C;
+}
+
+.inline a:hover{
+    background-color:#D10000;
+}
+
+
+.showImage{
+    display:block;
+    height:auto;
+    width:300px;
+}
+
+
+footer{
+    background-color:#D10000;
+    max-width:100%;
+    width:100%;
+    position: fixed;
+
+}
+
+.introContainer{
+    position:relative;
+    top:-150px;
+    float:right;
+    padding-right:350px;
+    width:500px;
+}
+
+.introBox{
+      border: 1px solid black;
+    position:relative;
+    top:220px;
+    padding:30px;
     
 }
 
-article{
-    text-align: left;
+.introBoxContainer{
+    padding:10px;
+    width:300px;
+    margin-bottom:10%;
+    position:relative;
+    top: -200px;
 }
 
-
-
-#title{
-       padding-top:20%;
-     text-align:center;
-    color:#EF5455;
-    text-shadow:3px 2px #FAD744;
-    font-size:30px;
-    padding: 25px 50px 75px 100px;
-    text-shadow: 2px 2px #000000;
+.containerOne{
+    position:relative;
+    width:50%;
+    z-index:99;
 }
-
-img{
-  
-    padding: 0 6px;
-    float: right;
-    width: 20%;
-    transform: rotate(90deg);
-}
-
-
 
