@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="finalproject.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title> Home </title>
+</head>
+
+<body class="homeBodyy">
+    
+    
+    
+     <div class="navBar">
+          <p class="inline"> <a href="finalAbout.html"> About Me </a> </p>
+          <p class="inline"> <a href="finalContact.html"> Contact </a> </p>
+        <div class="navRight">
+         <p class="inline"> <a href="showsFinal.html"> T.V Shows </a> </p>
+        <p class="inline"  > <a href="collectionFinal.html"> Collection </a> </p>
+        <p class="inline"> <a href="artFinal.html"> Home Art </a> </p>
+       </div>
+</div>
+         
+    
+    <img src="paige_logo.png" alt="Paige Rates Logo">
+    <div class="whybox">
+        
+    <h5 class="fancybox"> How things are rated </h5>
+        <h4 class="fancybox"> Test </h4>
+        
+    </div>
+    <br>
+    <div class="homepaige">
+    <p class="homePageP">
+        When I critiqued the subjects on my webpage I judged by: <em> <strong> Clarity, Content,</strong></em> and <em> <strong> Creativity </strong> </em>.  Then I took qualities like Terrible, Pretty Good, and Excellent and assigned them numbers on a scale of 1 to 9. After judging by each quality, I added each number and assigned them to an overall score. blah blah ill fix the mechanics later im super tired plz bare w/ me
+    
+    </p>
+    </div>
+    
+       <button onclick="myFunction()"> Show Scale </button>
+    
+ 
+   
+   <div class="myDiv">
+    
+    <table class="ratingscale" cellpadding="1" cellspacing="1">     
+        <tr>
+             <th> Grading </th>
+             <th> Qualities</th>
+            <th> Scores </th>
+        </tr>
+        <tr>
+            <td> Clarity </td>
+            <td> Terrible </td>
+            <td> 1-3 </td>
+          
+        </tr>
+        <tr> 
+           <td> Content </td>
+            <td> Pretty Good </td>
+            <td> 4-6 </td>
+   
+        </tr>
+        <tr>
+              <td> Creativity </td>
+            <td> Excellent </td>
+            <td> 7-9 </td>
+
+        </tr>
+        
+           
+           
+       
+    </table>
+     
+        <div class="slideshow-container">
+
+<div class="mySlides fade">
+ 
+  <img src="photo.png" style="width:100%">
+ 
+</div>
+
+<div class="mySlides fade">
+
+  <img src="profile.png" style="width:100%">
+ 
+</div>
+
+<div class="mySlides fade">
+
+  <img src="oitnb.jpeg" style="width:100%">
+  
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+    </div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+    
+    
+    <footer>
+        <p> Paige Davis 
+        <em> Ferris State University </em>
+          
+        <a href="mailto:davisp11@ferris.edu" target="_blank"> 
+            <img src="email.png" width:20px;>
+            </a>
+              </p>
+        </footer>
+    
+ 
+    
+   
+    
+    
+    
+
+    
+    
+    
+</body>
+</html>
+    
