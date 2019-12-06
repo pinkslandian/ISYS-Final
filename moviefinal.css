@@ -45,7 +45,8 @@ list-style-type:none;
     padding-bottom:20px;
     overflow:hidden;
     font-size:20px;
-    line-height:30px;  
+    line-height:30px;
+    
 }
 
 .navRight{
@@ -58,7 +59,7 @@ list-style-type:none;
 
 .inline{
     float:left;
-   border-top-style: dotted;
+    border-top-style: dotted;
   border-right-style: dotted;
   border-bottom-style: dotted;
   border-left-style: dotted;
@@ -74,9 +75,10 @@ list-style-type:none;
     color:#3E000C;
 }
 
-.inline: hover{
+.inline a:hover{
     background-color:#D10000;
 }
+
 
 
 .showImage{
