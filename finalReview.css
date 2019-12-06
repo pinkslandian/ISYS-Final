@@ -1,4 +1,50 @@
+/*---Pheobe Hill and Paige Davis
+  12/7/2019
+  John Kinuthia
+  Web application developement
+ ISYS 288 
+ 0001
+ Style the movies and Tv show page--*/
 
+  
+/* Title of the pages*/
+.Head{
+       text-shadow: 2px 2px 5px white;
+     background-color: #D10000;
+     color:#FFCBDD;
+     size: 20;
+}  
+
+/* body color*/
+.RBodyy{
+    background-color:#FFCBDD;
+}
+
+/* Logo*/
+img[src^="paige_logo.png"]{
+    width:300px;
+    z-index:1;
+    padding-left:460px;
+    position: relative;
+    top: -90px;
+}
+
+/* summary tabs*/
+summary{
+    background-color: #FFCBDD;
+    color: black;
+    size: 20;
+}
+summary:hover{
+    background-color: #D10000; 
+}
+
+
+/* orange is new black image*/
+img[src^="oj.png"]{
+    width:300px;
+    z-index:1;
+}
 .navBar{
 list-style-type:none;
     margin:0;
@@ -8,11 +54,24 @@ list-style-type:none;
     overflow:hidden;
     font-size:20px;
     line-height:30px;
-    
+}
+
+.navRight{
+    position:relative;
+    top:-10px;
+   margin-left:400px;
+   float:right;
+    padding-left:170px;
 }
 
 .inline{
-    float:left;
+    float:left
+    border-top-style: dotted;
+  border-right-style: dotted;
+  border-bottom-style: dotted;
+  border-left-style: dotted;
+  margin-right:10px; 
+  margin-left: 10px;;
 }
 
 .inline a{
@@ -27,12 +86,25 @@ list-style-type:none;
     background-color:#D10000;
 }
 
-footer{
-    background-color:#D10000;
-    max-width:100%;
-    width:100%;
-    position: fixed;
+
+.showImage{
+    display:block;
+    height:auto;
+    width:300px;
 }
+
+/* footer*/
+.footer{
+    background-color:#D10000;
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+}
+
+
 .column{
   border:1px solid #D10000;
     border-radius:25px;
@@ -46,18 +118,6 @@ footer{
     padding:10px;
     width:55%;
     height:40%;
-}
-
-img[src^="oj.png"]{
-    width:300px;
-    z-index:1;
-}
-
-.RBodyy{
-    background-color:#FFCBDD;
-     max-width:1024px;
-    width:640px;
-    font-size: 20px;
 }
 
 /* Customize the label (the container) */
@@ -138,91 +198,10 @@ img[src^="oj.png"]{
      background-image: linear-gradient(to bottom right, #FFCBDD, #D10000);
 }
 
-/* Slideshow container */
-.slideshow-container {
-
-    width:400px;
-  position: relative;
-    top:-400px;
-  margin: auto;
-   
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
+/*border */
+.submissionBox{
+    border-top-style: dotted;
+  border-right-style: dotted;
+  border-bottom-style: dotted;
+  border-left-style: dotted;
 }

@@ -1,16 +1,33 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : Dec 3, 2019, 5:48:49 PM
-    Author     : Mrs.Hill
-*/
+
+/*---Pheobe Hill and Paige Davis
+  12/7/2019
+  John Kinuthia
+  Web application developement
+ ISYS 288 
+ 0001
+ Style the movies and Tv show page--*/
+
+  
+/* Title of the pages*/
+.Head{
+       text-shadow: 2px 2px 5px white;
+     background-color: #D10000;
+     color:#FFCBDD;
+     size: 20;
+}  
+
+/* Movie page body*/
 .movieBodyy{
+    background-color: #FFCBDD;
+}
+
+/* TV SHow body page*/
+.showsBodyy{
     background-color:#FFCBDD;
    
 }
+
+/* Logo*/
 img[src^="paige_logo.png"]{
     width:300px;
     z-index:1;
@@ -18,6 +35,7 @@ img[src^="paige_logo.png"]{
     position: relative;
     top: -90px;
 }
+
 /* nav bar formation */
 .navBar{
 list-style-type:none;
@@ -27,8 +45,7 @@ list-style-type:none;
     padding-bottom:20px;
     overflow:hidden;
     font-size:20px;
-    line-height:30px;
-    
+    line-height:30px;  
 }
 
 .navRight{
@@ -41,6 +58,12 @@ list-style-type:none;
 
 .inline{
     float:left;
+   border-top-style: dotted;
+  border-right-style: dotted;
+  border-bottom-style: dotted;
+  border-left-style: dotted;
+  margin-right:10px; 
+  margin-left: 10px;
 }
 
 .inline a{
@@ -51,7 +74,7 @@ list-style-type:none;
     color:#3E000C;
 }
 
-.inline a:hover{
+.inline: hover{
     background-color:#D10000;
 }
 
@@ -62,15 +85,18 @@ list-style-type:none;
     width:300px;
 }
 
-
-footer{
+/* footer*/
+.footer{
     background-color:#D10000;
-    max-width:100%;
-    width:100%;
     position: fixed;
-
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
 }
 
+/* Border around txt*/
 .introContainer{
     position:relative;
     top:-150px;
@@ -89,7 +115,7 @@ footer{
 
 .introBoxContainer{
     padding:10px;
-    width:300px;
+    width:auto;
     margin-bottom:10%;
     position:relative;
     top: -200px;
@@ -101,3 +127,13 @@ footer{
     z-index:99;
 }
 
+.mo{
+   border-top-style: dotted;
+  border-right-style: dotted;
+  border-bottom-style: dotted;
+  border-left-style: dotted;
+}
+
+h1{
+    font:larger;
+}

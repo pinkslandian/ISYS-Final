@@ -21,13 +21,12 @@
 
 }
 
-.showsBodyy{
-    background-color:#FFCBDD;
-   
-}
-
-
-
+.Head{
+       text-shadow: 2px 2px 5px white;
+     background-color: #D10000;
+     color:#FFCBDD;
+     size: 20;
+}  
 
 /* format of the social media buttons */
 
@@ -80,7 +79,11 @@ padding-left:200px;
     position:relative;
     top:-400px;
     padding-right:200px;
-   
+     border-top-style: dotted;
+  border-right-style: dotted;
+  border-bottom-style: dotted;
+  border-left-style: dotted;
+  text-align: center;
 }
 
 
@@ -135,6 +138,12 @@ list-style-type:none;
 
 .inline{
     float:left;
+    border-top-style: dotted;
+  border-right-style: dotted;
+  border-bottom-style: dotted;
+  border-left-style: dotted;
+  margin-right:10px; 
+  margin-left: 10px;
 }
 
 .inline a{
@@ -427,8 +436,6 @@ img {vertical-align: middle;}
   .prev, .next,.text {font-size: 11px}
 }
 
-*//
-
 section{
     text-shadow:black 2px;
 }
@@ -473,10 +480,3 @@ section{
     padding:20px;
     
 }
-
-
-
-
-
-
-

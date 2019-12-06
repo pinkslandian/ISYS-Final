@@ -1,41 +1,55 @@
 <!DOCTYPE html>
 <html>
+<!---Pheobe Hill and Paige Davis
+  12/7/2019
+  John Kinuthia
+  Web application developement
+ ISYS 288 
+ 0001
+ Display Reviews from Pheobe and paige with a navigation bar and form-->
 <head>
-    <meta charset="utf-8">
+    
+    <!--link css-->
     <link rel="stylesheet" href="finalReview.css">
+    <meta charset="utf-8">
+
+    <!--Scale page-->
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title> Home Art </title>
+    <title> Reviews </title>
 </head>
 
 <body class="RBodyy">
     
+<!--NavigationbarNavigation bar -->
    <div class="navBar">
-         
-       <p class="inline"> <a href="finalAbout.html"> About Me </a> </p>
+         <p class="inline"> <a href="finalAbout.html"> About Me </a> </p>
        <p class="inline"> <a href="finalContact.html"> Contact </a> </p>
        <div class="navRight">
         <p class="inline" style="float:right;"> <a href="showsFinal.html" style="float:right"> T.V Shows</a> </p>
-        <p class="inline" style="float:right;"> <a href="collectionFinal.html"> Movies </a> </p>
+        <p class="inline" style="float:right;"> <a href="moviefinal.html"> Movies </a> </p>
        </div>
     </div>
         
-    
-     <a href="index.html"> 
+     <!--Logo-->
+    </div>
+        <a href="finalProject.html"> 
        <img src="paige_logo.png" alt="Paige Rates Logo">
-         </a> 
+       </a> 
+    </div>
     
-   
-    
-    
+      <!--Title of page-->
+   <h1 class="Head" align="center">Reviews</h1>
+
+<!--Paiges tab-->
+<details>
+  <summary align="center">Paige Reviews</summary>
+ <!--Reviews from paige on tv show and boxes-->
     <div class="bodyBoxContainer">
     <div class="bodyBox">
-    <div class="mySlides fade">
-
     <div class="row">
      <h2>Orange is The New Black</h2>
      <img src="oj.jpg" alt="Orange is the new black picture" style="width:400px;height:300px;">
-  
-  <div class="column">
+   <div class="column">
        <p>Category: Comedy/Drama
          First episode date: July 11, 2013 <br>
          Theme song: You've Got Time <br>
@@ -43,10 +57,8 @@
          95% liked this TV show </p>
   </div>
     <div class="textBoxA">
-    
-      <ul> 
-           <li> Name: Chase Smith </li>
-          <li> Age: 22</li>
+    <ul> 
+           <li> Name: Paige </li>
           <li> Rating: 8/10</li>
           <p>
                  This show is very entertaining. I like the storline.
@@ -61,69 +73,19 @@
       </div>
   </div>
 
-     <h2>Stranger Things </h2>
-     <img src="things.jpg" style="width:400px;height:300px;">
-  
-  <div class="column">
-         <p>Category: Horror/Drama
-         First episode date: July 15, 2016 <br>
-         Created by	The Duffer Brothers <br>
-         97% liked this TV show </p>
-  </div>
-    <div class="textBoxA">
-    
-      <ul> 
-           <li> Name: Ann Mable </li>
-          <li> Age: 17</li>
-          <li> Rating: 10/10</li>
-          <p>
-         Stranger Things is amazing. It's full of humor and horror, which is somehow mixed together very well. 
-         <p>
-      </ul>
-      </div>
-  </div>
-   <h2>The Walking Dead </h2>
-   <img src="walking.jpg" style="width:400px;height:300px;">
-  <div class="column">
-        
-           <p>Category: Action
-              First episode date: October 31, 2010<br>
-              Theme song: The Walking Dead theme song<br>
-              Spin-off: Fear the Walking Dead <br>
-</p>
-  </div>
-    <div class="textBoxA">
-   
-      <ul> 
-           <li> Name: Joe Halfway</li>
-          <li> Age: 20</li>
-          <li> Rating: 9/10</li>
-          <p>
-                The Walking Dead is a phenomenal tv show and never fails to entertain. 
-                Take it from someone who watches a lot of tv. Game of thrones, empire,
-                 the list is endless... but in that endless catalog, the walking dead stood 
-                 out to be one of the best in my opinion.
-         <p>
-      </ul>
-    </div>
-    </div>
-
-<div class="slideshow-container">
+  <!--Reviews from paige on Movie and boxes-->
 <h2>What Happened To Monday </h2>
      <img src="mon.jpg" alt="What Happened To Monday"  style="width:400px;height:300px;">
-  
   <div class="column">
        <p>Category: Action<br>
          Initial release: August 30, 2017 (France) <br>
          Written by: Max Botkin Kerry Williamson<br>
          93% liked this TV show</p>
-         
-  </div>
+         </div>
     <div class="textBoxA">
     
       <ul> 
-           <li> Name: Alex Slogan</li>
-          <li> Age: 26 </li>
+           <li> Name: Paige</li>
           <li> Rating: 10/10</li>
           <p>
          I think the movie is absolutely impeccable! What great acting skills by the lead. 
@@ -134,11 +96,38 @@
       </ul>
       </div>
   </div>
+</details>
 
+<!--Pheobes Tab-->
+   <details>
+  <summary align="center">Pheobe Reviews</summary>
+  <!--Reviews from Pheobe on tv show and boxes-->
+   <div class="bodyBoxContainer">
+    <div class="bodyBox">
+    <div class="row">
+     <h2>Stranger Things </h2>
+     <img src="things.jpg" style="width:400px;height:300px;">
+    <div class="column">
+         <p>Category: Horror/Drama
+         First episode date: July 15, 2016 <br>
+         Created by	The Duffer Brothers <br>
+         97% liked this TV show </p>
+  </div>
+    <div class="textBoxA">
+    <ul> 
+           <li> Name: Pheobe </li>
+          <li> Rating: 10/10</li>
+          <p>
+         Stranger Things is amazing. It's full of humor and horror, which is somehow mixed together very well. 
+         <p>
+      </ul>
+      </div>
+  </div>
+  
+<!--Reviews from Pheobe on movie and boxes-->
      <h2> The Water Boy </h2>
      <img src="water.jpg" width="100px">
-  
-  <div class="column">
+   <div class="column">
          <p>Category: Comedy<br>
             Release date: November 6, 1998 (USA) <br>
             Written by:	Tim Herlihy and  Adam Sandler <br>
@@ -146,10 +135,8 @@
             90% liked this movie </p>
   </div>
     <div class="textBoxA">
-    
-      <ul> 
-           <li> Name: Mary Hilbert </li>
-          <li> Age: 39</li>
+     <ul> 
+           <li> Name: Pheobe </li>
           <li> Rating: 9/10</li>
           <p>
         This movie does not hit all of the usual crude lines that Sandler likes to have in his productions.
@@ -159,83 +146,20 @@
       </ul>
       </div>
   </div>
-   <h2>The Karate Kid</h2>
-   <img src="kid.jpg" width="100px">
-  <div class="column">
-        
-           <p>Category: Children & Family
-            Release date: June 11, 2010 (USA) <br>
-            Director: Harald Zwart <br>
-            Film series: The Karate Kid series<br>
-            94% liked this movie</p>
-  </div>
-    <div class="textBoxA">
-   
-      <ul> 
-           <li> Name: TJ</li>
-          <li> Age: 22</li>
-          <li> Rating: 10/10</li>
-          <p>
-          One of my favorite Jackie Chan movies. And also, it's just nice in general to see people
-           who are actually interested and respect the country of China, one I grew up in.
-            A great re-make of the original film from 1984.
-         <p>
-      </ul>
-
-      
   
-    </div>
-    </div>
-    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div>
-    <div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-</div>
+</details>
 
-</div>
-         <script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-</script>
-    </div>
+<!--Form for feedback-->
       <div class="submissionBox">
     <article>
         <header> 
                <h1> 
                 Submit your critique here!
             </h1>
-            <p> Tell us how you feel about some of your netflix favorites! </p>
+            <p> Tell us how you feel about some of your netflix favorites and our reviews! </p>
         </header>
     </article>
     <form>
- 
         Name:
         <input type="text" class="name" name="name" placeholder="Jane Doe">
         <br>
@@ -243,68 +167,26 @@ function showSlides(n) {
         <input type="email" class="name" name="email" placeholder="xxx@gmail.com"> 
         <br>
         Age:
-        <input type="Age" class="name" name="Age" placeholder="18"> 
-        <br>
-        Movie/Tv Title:
-        <input type="title" class="name" name="title" placeholder="movie/tv Name"> 
-        <br>
-        Rate:
-        <input type="rate" class="name" name="rate" placeholder="10/10"> 
+        <input type="text" class="name" name="Age" placeholder="18"> 
         <br>
         Type:
         <br>
        <br>
-
-        <label class="container">Movie
+        <label class="container" >Movie
         <input type="checkbox" checked="checked">
         <span class="checkmark"></span>
         </label>
-
         <br>
-
         <label class="container">Tv show
         <input type="checkbox" checked="checked">
         <span class="checkmark"></span>
         </label>
-
         <br>
-        Catagory:
+        Title:
+        <input type="text" class="name" name="title" placeholder="Tv/Movie Title">
         <br>
-        <br>
-
-        <label class="container">Drama
-        <input type="checkbox" checked="checked">
-        <span class="checkmark"></span>
-        </label>
-
-        <br>
-
-        <label class="container">Action & Adventure
-        <input type="checkbox" checked="checked">
-        <span class="checkmark"></span>
-        </label>
-
-        <br>
-
-        <label class="container">Comedy
-        <input type="checkbox">
-        <span class="checkmark"></span>
-        </label>
-
-        <br>
-
-        <label class="container">Children & Family 
-        <input type="checkbox">
-        <span class="checkmark"></span>
-        </label>
-
-        <br>
-
-        <label class="container">Horror
-        <input type="checkbox">
-        <span class="checkmark"></span>
-        </label>
-       
+        Rate:
+        <input type="rate" class="name" name="rate" placeholder="10/10"> 
         <br>
        <input type="text" class="inputBox"> 
         <button onclick="otherButton()"> Done </button>
@@ -314,9 +196,12 @@ function showSlides(n) {
         button that submit and shows a message confirming that your shit was sent in -->
         
     </form>
-        
-        </div>
+    </div>
+     <br>
+     <br>
+     <br>
 
+     <!--Switch statement-->
     <p class="nothing"></p>
     <script>
         function otherButton() {
@@ -325,21 +210,20 @@ function showSlides(n) {
             
             switch(response){
                     case"N/A":
-                    text = "Thank you for responding.";
+                    text = "Thank you for your Critique.";
                     break;
                 default:
-                    text = "Thank you for responding!;
+                    text = "Thank you for your Critique!;
             }
             
             document.getElementById("nothing").innerHTML = text;
         }
     </script>
     
-    
-    
-    
+         <!--Footer with email link -->
+         <div class="footer">
        <footer>
-        <p> Paige Davis 
+        <p> Paige Davis, Pheobe Hill
         <em> Ferris State University </em>
           
         <a href="mailto:davisp11@ferris.edu" target="_blank"> 
@@ -347,13 +231,9 @@ function showSlides(n) {
             </a>
               </p>
         </footer>
-    
-    
+        </div>   
     
 
-    
-    
-    
 </body>
 </html>
     
